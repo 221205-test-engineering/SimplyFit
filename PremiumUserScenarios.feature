@@ -20,7 +20,7 @@ Feature: Tracking workouts with metrics
 Scenario: A user wants to track and view their workouts with metrics
     Given a user is logged in
     And the user has an active premium subscription
-    And the user is on their 'Tracked Workouts' page viewing their data
+    And the user is already on their 'Tracked Workouts' page viewing their data
     When the user clicks add metrics
     Then the user should be able add more data to workouts
 
@@ -36,10 +36,10 @@ Feature: Schedule a private trainer
 
 Scenario: A user wants to scedule a 1 on 1 session with a personal trainer
     Given a user is logged in
-    And the user is on the page titled "Calender"
+    And the user is on the page titled "Tracked Workouts" in calender view
     And the user has an active premium subscription
-    When the user clicks 'Schedule' 
-    Then the user will be albe to select a session from available slots
+    When the user clicks 'Schedule a 1-on1' 
+    Then the user will be able to select a session from available slots
 
 Feature: Closing an account
 
