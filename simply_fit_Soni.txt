@@ -16,15 +16,24 @@ USER STORIES
 
 
 BACKGROUND
-    GIVEN Preminum member logged into the website
-    AND Member started work out
+    1.  GIVEN Preminum member logged into the website
+        AND Member started workout
+    2.  GIVEN Non-premium member logged into the website
+        AND Non-premium member started workout 
 
         SCENARIO 1: Premium member requests personal trainer
             GIVEN Premium member has no workout plans
             WHEN Premium member requests workout plans
-            THEN Premium member’s customized workout plan is set.
+            THEN Premium member’s personal trainer is set.
 
-        SCENARIO 2: Premium member doesn't requests personal trainer
+        SCENARIO 2: Premium member request for custom workout plans
             GIVEN Preminum member has workout plans
             WHEN Preminum member logged in for workout
-            THEN Schedule premium member's time as per their requests and availability of space
+            THEN Allow Preminum member to set their own custom workout plans        
+
+        SCENARIO 3: Non-premium member request premium membership
+            GIVEN Non-premium member doesn't know how to workout
+            WHEN  Non-premium member requests premium membership
+            THEN Non-premium member registering for premium membership
+
+        SCENARIO 4: 
