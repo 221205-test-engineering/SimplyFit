@@ -16,8 +16,8 @@ USER STORIES
 
 
 FEATURE
-    1.  GIVEN member logged into the website
-        AND Member started workout
+    GIVEN member logged into the website
+    AND Member started workout
     
 
         SCENARIO 1: Premium member requests personal trainer
@@ -35,4 +35,11 @@ FEATURE
             WHEN  Non-premium member requests premium membership
             THEN Non-premium member registering for premium membership
 
-        SCENARIO 4: 
+FEATURE 
+    GIVEN Automatic updation of suggestion of body measurements
+    AND Monitoring measurements
+        SCENARIO 4: Members daily workout and measurement updates
+            GIVEN Member started workout
+            WHEN End of daily workout body measurements automatically            
+            THEN Updating manually if any changes noticed.
+
