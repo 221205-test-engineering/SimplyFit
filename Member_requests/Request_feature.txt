@@ -16,7 +16,7 @@ USER STORIES
 
 
 FEATURE
-    Member login
+    Member requests
 BACKGROUND
     GIVEN member logged into the website
     AND Member started workout
