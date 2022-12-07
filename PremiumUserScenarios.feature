@@ -1,5 +1,5 @@
 
-Feature: Subscribing to Simply Fit
+Feature: Downgrading Subscription to Simply Fit
 
 Scenario: User is trying to downgrade their account to a Basic account
     Given a user is logged in 
