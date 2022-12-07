@@ -15,7 +15,8 @@ USER STORIES
 5.  User can generate custom workout from userdata and our selection
 
 
-FEATURE
+FEATURE Memger login
+BACKGROUND
     GIVEN member logged into the website
     AND Member started workout
     
@@ -35,11 +36,4 @@ FEATURE
             WHEN  Non-premium member requests premium membership
             THEN Non-premium member registering for premium membership
 
-FEATURE 
-    GIVEN Automatic updation of suggestion of body measurements
-    AND Monitoring measurements
-        SCENARIO 4: Members daily workout and measurement updates
-            GIVEN Member started workout
-            WHEN End of daily workout body measurements automatically            
-            THEN Updating manually if any changes noticed.
-
+        
