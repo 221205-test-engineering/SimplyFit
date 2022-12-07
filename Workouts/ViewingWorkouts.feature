@@ -1,3 +1,5 @@
+Feature: Viewing workouts
+
 Scenario: Non user wants to peruse the site's workout catalog
     Given this user has no account
     When the user clicks on the workout tab

@@ -1,3 +1,11 @@
+Prompt
+Simply Fit offers personalized training tracks to help their customers achieve their desired level of 
+fitness and health. Currently, Personal Trainers work directly with their clients, but Simply Fit is looking 
+to expand their services to include a subscription-based web app that will allow users to create custom workouts
+from a selection of exercises aimed at different fitness goals. Customers can create different levels of 
+accounts to access premium features like scheduling a 1-on-1 with a personal trainer or recording their 
+workout metrics.
+
 
 USER STORIES
 1.  User should be able enter/update their body measurements
@@ -28,3 +36,5 @@ BACKGROUND
             GIVEN Non-premium member doesn't know how to workout
             WHEN  Non-premium member requests premium membership
             THEN Non-premium member registering for premium membership
+
+        
