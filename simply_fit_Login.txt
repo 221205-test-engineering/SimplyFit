@@ -37,6 +37,6 @@ FEATURE
 
         SCENARIO 4: Members daily workout and measurement updates
             GIVEN Member started workout
-            WHEN End of daily workout body measurements automatically            
+            WHEN End of daily workout body measurements updated automatically            
             THEN Updating manually if any changes noticed.
 
