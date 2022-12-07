@@ -1,3 +1,4 @@
+Feature: Tracking workouts
 
 Scenario: A user wants to track and view their previous workouts
     Given a user is logged in
